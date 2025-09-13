@@ -1,5 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema general app -->
+    <style name="Theme.PawCare" parent="Theme.MaterialComponents.DayNight.NoActionBar">
 
-    <style name="Theme.PawCare" parent="android:Theme.Material.Light.NoActionBar" />
+        <item name="colorPrimary">@color/pawcare_primary</item>
+        <item name="colorPrimaryVariant">@color/pawcare_secondary</item>
+        <item name="colorOnPrimary">@color/pawcare_background</item>
+        <item name="colorSecondary">@color/pawcare_secondary</item>
+        <item name="colorOnSecondary">@color/pawcare_background</item>
+
+        <!-- Fondo -->
+        <item name="android:windowBackground">@color/pawcare_background</item>
+        <item name="android:textColor">@color/pawcare_text</item>
+    </style>
+
+
+    <style name="Theme.PawCare.Splash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg_splash</item>
+    </style>
 </resources>

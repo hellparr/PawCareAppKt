@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/splash_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_splash_gradient"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_pawcare_logo" />
+
+    <TextView
+        android:id="@+id/appNameText"
+        android:layout_width="224dp"
+        android:layout_height="0dp"
+        android:layout_below="@id/logoImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="PawCare"
+        android:textColor="@color/pawGreen"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+</RelativeLayout>
